@@ -16,7 +16,7 @@ public class CommandProject2 extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getConsoleSender().sendMessage(ChatColor.YELLOW + "CommandProject2 is enabled!");
-        Objects.requireNonNull(getCommand("feed")).setExecutor(new Commands())
+        Objects.requireNonNull(getCommand("feed")).setExecutor(new Commands());
     }
 
     @Override
