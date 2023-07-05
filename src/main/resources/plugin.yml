@@ -1,0 +1,5 @@
+name: CommandProject2
+version: '0.1.0'
+description: 'A simple plugin to test out my nonsensical ideas.'
+main: com.samcodes.commandproject2.CommandProject2
+api-version: '1.20'
