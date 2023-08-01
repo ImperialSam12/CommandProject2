@@ -3,3 +3,27 @@ version: '0.2.0'
 description: 'A simple plugin to test out my nonsensical ideas.'
 main: com.samcodes.commandproject2.CommandProject2
 api-version: '1.20'
+commands:
+  feed:
+    description: A command to refill your hunger.
+    permission: comproj.feed
+    permission-message: Stop it! You can't do that!
+    usage: /feed
+  echo:
+    description: A command to echo... echo... echo...
+    permission: comproj.echo
+    permission-message: Stop it! You can't do that!
+    usage: /echo <message>
+permissions:
+  comproj.feed:
+    description: Allows feed command.
+    default: op
+  comproj.echo:
+    description: Allows echo command.
+    default: op
+  comproj.*:
+    description: Wildcard permission.
+    default: op
+    children:
+      feed: true
+      echo: true
