@@ -1,7 +1,7 @@
 package com.samcodes.commandproject2;
 
-import com.samcodes.commandproject2.notcommands.EchoCommand;
-import com.samcodes.commandproject2.notcommands.FeedCommand;
+import com.samcodes.commandproject2.commands.EchoCommand;
+import com.samcodes.commandproject2.commands.FeedCommand;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
