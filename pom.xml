@@ -6,7 +6,7 @@
 
     <groupId>com.samcodes</groupId>
     <artifactId>CommandProject2</artifactId>
-    <version>0.1.0</version>
+    <version>0.2.0</version>
     <packaging>jar</packaging>
 
     <name>CommandProject2</name>
